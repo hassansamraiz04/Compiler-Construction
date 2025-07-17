@@ -1,0 +1,68 @@
+Function       → Type identifier (Arglist) CompoundStmt
+
+Arglist        → Arg Arglist'
+
+Arglist'       → , Arg Arglist' | ϵ
+
+Arg            → Type identifier
+
+Declaration    → Type Identlist ::
+
+Type           → Adadi | Ashriya | Harf | Matn | Mantiqi
+
+Identlist      → identifier Identlist'
+
+Identlist'     → , Identlist | ϵ
+
+Stmt           → ForStmt | WhileStmt | Expr :: | IfStmt | CompStmt | Declaration ::
+
+ForStmt        → for (Expr :: OptExpr :: OptExpr) Stmt
+
+OptExpr        → Expr | ϵ
+
+WhileStmt      → while (Expr) Stmt
+
+IfStmt         → agar (Expr) Stmt ElsePart
+
+ElsePart       → wagarna Stmt | ϵ
+
+CompStmt       → { StmtList }
+
+StmtList       → StmtList'
+
+StmtList'      → Stmt StmtList' | ϵ
+
+Expr           → identifier Expr'
+               | (Expr) Term' Mag' Rvalue'
+               | number Term' Mag' Rvalue'
+
+Expr'          → := Expr | Term' Mag' Rvalue'
+
+Rvalue         → Mag Rvalue'
+
+Rvalue'        → Compare Mag Rvalue' | ϵ
+
+Compare        → == | < Compare' | > Compare'' | !=
+
+Compare'       → = | > | ϵ
+
+Compare''      → = | ϵ
+
+Mag            → Term Mag'
+
+Mag'           → + Term Mag' | - Term Mag' | ϵ
+
+Term           → Factor Term'
+
+Term'          → * Factor Term' | / Factor Term' | ϵ
+
+Factor         → (Expr) | identifier | number
+
+
+ tokens = {
+ "Adadi", "identifier", "(", ")",
+ "{",
+     
+     "Adadi","identifier", ":=", "number", "::",
+ "}"
+ };

@@ -1,0 +1,2 @@
+Token Table
+< keyword,1 > < keyword,2 > < ( > < ) > < { > < keyword,1 > < id,1 > < = > < 10 > < :: > < keyword,3 > < id,2 > < = > < -10.5E+12 > < :: > < keyword,3 > < id,3 > < = > < +9.3 > < :: > < keyword,4 > < id,4 > < = > < keyword,5 > < :: > < keyword,6 > < ( > < id,4 > < ) > < keyword,7 > < id,2 > < :: > < keyword,8 > < keyword,7 > < id,1 > < :: > < keyword,9 > < 0 > < :: > < } > 

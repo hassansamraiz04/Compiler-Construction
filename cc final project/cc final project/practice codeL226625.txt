@@ -1,0 +1,12 @@
+Adadi Marqazi ()
+{
+Adadi _num = 10 ::
+Ashriya num_ = -10.5E+12 ::
+Ashriya n_umber = +9.3 ::
+Mantiqi _flag = True ::
+Agar ( _flag )
+input-> num_ ::
+Wagarna
+input-> _num ::
+Wapas 0 ::
+}

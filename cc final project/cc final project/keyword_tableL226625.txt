@@ -1,0 +1,10 @@
+Position	Value
+1		Adadi
+2		Marqazi
+3		Ashriya
+4		Mantiqi
+5		True
+6		Agar
+7		input->
+8		Wagarna
+9		Wapas

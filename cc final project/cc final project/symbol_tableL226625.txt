@@ -1,0 +1,5 @@
+Position	Value
+1		_num
+2		num_
+3		n_umber
+4		_flag

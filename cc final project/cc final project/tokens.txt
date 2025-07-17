@@ -1,0 +1,4 @@
+<keyword,1> <identifier,1> <(> <keyword,1> <identifier,2> <,> <keyword,1> <identifier,3> <)> <{>
+<keyword,1> <identifier,4> <::>
+<identifier,4> <:=> <identifier,2> <+> <identifier,3> <::>
+<}>

@@ -1,0 +1,17 @@
+DECLARE int Adadi 1
+VAR 1
+t0 = 1 + 2
+ASSIGN 1 = t0
+cond = 1  1
+IF_FALSE condition Agar GOTO L0
+OUTPUT 1
+L0:
+RETURN Wapas 1
+L1:
+cond = 1 <  2
+IF_FALSE condition GOTO L2
+VAR 1
+t1 = 1 + 2
+ASSIGN 1 = t1
+GOTO L1
+L2:
